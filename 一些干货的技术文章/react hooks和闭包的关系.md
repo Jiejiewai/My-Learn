@@ -4,4 +4,4 @@ React hooks和闭包有什么关系呢，hooks有什么关系呢，今天就让�
 https://blog.csdn.net/fedlover/article/details/103347780/ 
 
 
-模块化就是基于闭包衍生出来的.
+emmm我记得React hooks的持久化是因为绑定在了fiber上啊?
