@@ -1,0 +1,10 @@
+Ref一般用来保存获取得到的真实DOM
+
+类组件可以用createRef来创建Ref
+
+函数式组件因为每次都更新无法保存instance所以把Ref存放在对应挂载的fiber节点上。
+
+函数组件没有实例，不能被Ref标记。
+
+forwardRef使ref可以跨层级捕捉真实DOM。
+
