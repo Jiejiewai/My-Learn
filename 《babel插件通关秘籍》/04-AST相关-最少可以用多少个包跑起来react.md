@@ -9,6 +9,7 @@
 *    babel的主要作用是将高版本es编译成低版本es，解析jsx和es6
 *    babel-core的作用是把js代码分析成ast，方便各个插件分析语法进行相应的处理。有些新语法在低版本js中不存在，如箭头函数，
 *    这种语言层面的不兼容只能通过将代码转为ast，分析其语法后再转为低版本js
+*    在babel-core中封装了 @babel/parse -> @babel/traverse  -> @babel/generator 以及 @babel/types 或者 @babel/template 的所*    有功能
 */
 3.babel-core
 
