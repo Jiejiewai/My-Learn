@@ -1,0 +1,3 @@
+https://juejin.cn/post/7036155759121399821?utm_source=gold_browser_extension
+
+主要介绍了React 18中将Effects的遍历方式由List改为了树遍历，主要是为了suspense这一特性。
