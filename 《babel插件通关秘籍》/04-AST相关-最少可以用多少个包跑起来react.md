@@ -4,7 +4,6 @@
 2.react-dom
 
 // babel
-// 如果使用typescript就不用配置babel了？不用么，可以ts也要转译啊
 
 /* 
 *    babel的主要作用是将高版本es编译成低版本es，解析jsx和es6
