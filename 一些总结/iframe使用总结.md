@@ -1,0 +1,7 @@
+### 跨域下无法获取到iframe下的任何元素
+vspace等attri都会失效，srollTo srollLeft等函数获取不到
+也无法监听iframe页面的改变
+在跨域的情况下只能使用postMessage进行父子窗口的通信，需要iframe内嵌页面的支持
+
+### 不跨域
+不跨域的情况下可以获取到dom元素，使用对dom元素的监听可以实现style改变、监听url改变等动作
